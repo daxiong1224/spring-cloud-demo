@@ -10,11 +10,16 @@
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/service-feign/pom.xml" />
         <option value="$PROJECT_DIR$/sc-f-chapter4/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-f-chapter5/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-f-chapter5/service-zuul2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/sc-f-chapter4/pom.xml" />
+        <option value="$PROJECT_DIR$/sc-f-chapter5/pom.xml" />
       </set>
     </option>
   </component>

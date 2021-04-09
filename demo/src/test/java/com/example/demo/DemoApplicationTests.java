@@ -1,10 +1,10 @@
-package com.hx.demo;
+package com.example.demo;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServiceFeignApplicationTests {
+class DemoApplicationTests {
 
     @Test
     void contextLoads() {
