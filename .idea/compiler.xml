@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="service-feign" />
@@ -15,6 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="eureka-server (1) (com.forezp)" target="1.8" />
       <module name="sc-f-chapter4" target="1.8" />
       <module name="sc-f-chapter5" target="1.8" />
@@ -28,6 +30,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
